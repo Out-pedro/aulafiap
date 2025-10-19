@@ -28,7 +28,7 @@ public class CadastroEntregasService {
     EntregaModel entrega = new EntregaModel();
     public Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();
     public Response response;
-    String baseUrl= "https://api-entregas-e081747db7d.herokuapp.com";
+    String baseUrl= "http://localhost:8080/swagger-ui/index.html";
     String idDelivery;
     JSONObject jsonSchema;
     String schemsaPath = "src/test/resources/schemas/";
